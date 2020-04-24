@@ -14,7 +14,7 @@ Suggestion: <a href="https://ankiweb.net/shared/info/538879081">Anki Zoom</a> (5
 
 <b>Example:</b>
 
-<img src="https://i.ibb.co/C2yGtsn/before.png" alt="Little_Anki">
+<img src="https://github.com/cjdduarte/Little_Anki/blob/master/Little_Anki.jpg" alt="Little_Anki">
 
 
 <b>#### Configuration option:</b>
