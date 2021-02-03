@@ -2,7 +2,7 @@
 
 <b>#### About:</b>
 
-Some people, for their reasons, need to use Anki in a very small window.
+Some people, for their reasons, need to use Anki in a very small window (stealth mode).
 
 This addon sets the height and width.
 
@@ -30,5 +30,7 @@ License 		| GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
 Source in 	| https://github.com/cjdduarte/Little_Anki
 
 <b> #### Change Log:</b>
+
+v1.1 - 2021-02-03 	+ Clean code
 
 v1.0 - 2020-04-24	+ Initial Release

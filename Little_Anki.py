@@ -14,21 +14,9 @@ MaximumHeight = config['MaximumHeight']
 config = mw.addonManager.getConfig(__name__)
 
 #Width
-#mw.setMinimumWidth(350)
-#mw.web.setMinimumWidth(350)
-
-#mw.setFixedWidth(400)
-#mw.web.setFixedWidth(400)
-
 mw.setMaximumWidth(MaximumWidth)
 mw.web.setMaximumWidth(MaximumWidth)
 
 #Height
-#mw.setMinimumHeight(350)
-#mw.web.setMinimumHeight(350)
-
-#mw.setFixedHeight(400)
-#mw.web.setFixedHeight(400)
-
 mw.setMaximumHeight(MaximumHeight)
 mw.web.setMaximumHeight(MaximumHeight)
