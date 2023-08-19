@@ -6,16 +6,9 @@ Some people, for their reasons, need to use Anki in a very small window (stealth
 
 This addon sets the height and width.
 
-<b>#### Suggestion:</b>
-
-<b>This addon works best together with some zoom addon.</b>
-
-Suggestion: <a href="https://ankiweb.net/shared/info/538879081">Anki Zoom</a> (538879081)
-
 <b>Example:</b>
 
-<img src="https://github.com/cjdduarte/Little_Anki/blob/master/Little_Anki.jpg" alt="Little_Anki">
-
+<img src="https://i.ibb.co/0fHSfHH/image.png" alt="Little_Anki"><br>
 
 <b>#### Configuration option:</b>
 
@@ -31,6 +24,8 @@ Source in 	| https://github.com/cjdduarte/Little_Anki
 
 <b> #### Change Log:</b>
 
-v1.1 - 2021-02-03 	+ Clean code
-
-v1.0 - 2020-04-24	+ Initial Release
+<ul>
+  <li>v1.2 - 2023-08-19 + Compatibility with Anki 2.1.5+</li>
+  <li>v1.1 - 2021-02-03 + Clean code</li>
+  <li>v1.0 - 2020-04-24	+ Initial Release</li>
+</ul>
