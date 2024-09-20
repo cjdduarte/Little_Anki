@@ -25,6 +25,7 @@ Source in 	| https://github.com/cjdduarte/Little_Anki
 <b> #### Change Log:</b>
 
 <ul>
+  <li>v1.3 - 2024-09-20 + Compatibility with Anki 24.06+</li>
   <li>v1.2 - 2023-08-19 + Compatibility with Anki 2.1.5+</li>
   <li>v1.1 - 2021-02-03 + Clean code</li>
   <li>v1.0 - 2020-04-24	+ Initial Release</li>

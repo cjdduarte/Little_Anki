@@ -4,17 +4,30 @@
 # Source in      | https://github.com/cjdduarte/Little_Anki
 
 from aqt import mw
-from aqt.qt import Qt
+
+# Tentando importar do PyQt5 ou PyQt6
+try:
+    from PyQt6.QtCore import Qt  # PyQt6 usa este caminho e estrutura
+except ImportError:
+    from PyQt5.QtCore import Qt  # Caso PyQt6 não esteja disponível, fallback para PyQt5
+
+# Compatibilidade entre PyQt5 e PyQt6 para o flag de maximização
+try:
+    # PyQt6 coloca as flags de janela dentro de WindowType
+    WindowMaximizeButtonHint = Qt.WindowType.WindowMaximizeButtonHint
+except AttributeError:
+    # PyQt5 usa diretamente dentro de Qt
+    WindowMaximizeButtonHint = Qt.WindowMaximizeButtonHint
 
 # Disable the maximization button
-mw.setWindowFlags(mw.windowFlags() & ~Qt.WindowMaximizeButtonHint)
+mw.setWindowFlags(mw.windowFlags() & ~WindowMaximizeButtonHint)
 mw.show()  # Necessary for the flag changes to take effect
 
-#-------------Configuration------------------
+# -------------Configuration------------------
 config = mw.addonManager.getConfig(__name__)
 MaximumWidth = config.get('MaximumWidth', 400)  # Default to 400 if not specified
 MaximumHeight = config.get('MaximumHeight', 400)  # Default to 400 if not specified
-#-------------Configuration------------------
+# -------------Configuration------------------
 
 # Applying the configurations:
 mw.setMaximumWidth(MaximumWidth)
