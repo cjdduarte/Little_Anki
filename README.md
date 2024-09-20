@@ -9,6 +9,8 @@ This addon sets the height and width.
 <b>Example:</b>
 
 <img src="https://i.ibb.co/0fHSfHH/image.png" alt="Little_Anki"><br>
+<img src="https://i.ibb.co/R4sLjKg/image.png" alt="Little_Anki"><br>
+
 
 <b>#### Configuration option:</b>
 
